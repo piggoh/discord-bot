@@ -6,7 +6,7 @@ lxml==6.0.2                 # updated from 4.9.3 — latest release Sept 2025
 schedule==1.2.0             # stays same unless you want newer
 asyncio-mqtt==0.16.1        # stays same unless you checked newer version
 websockets==15.0.1          # updated from 12.0 — latest release version 15.0.1
-aiofiles==24.0.0            # updated from 23.2.1 — new version available
+# aiofiles==24.0.0            # updated from 23.2.1 — new version available
 python-dateutil==2.8.2      # stays same unless newer version exists
 pytz==2024.1                # updated from 2023.3 — newer version available
 aiohttp==3.9.3             # added for webhook support

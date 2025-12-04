@@ -51,7 +51,7 @@ class DiscordMonitor:
         playwright = await async_playwright().start()
         
         self.browser = await playwright.chromium.launch(
-            headless=True,  # Set to True for headless mode
+            headless=False,  # Set to True for headless mode
             args=[
                 '--no-sandbox',
                 '--disable-blink-features=AutomationControlled',
